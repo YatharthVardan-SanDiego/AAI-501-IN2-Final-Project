@@ -29,16 +29,16 @@ We aim to build semantic segmentation models for Martian terrain analysis.
 ## 📂 Repository Structure
 
 ai4mars-project/
-│
-├── data/
-│ ├── raw/
-│ │ ├── edr/
-│ │ ├── mxy/
-│ │ ├── rng-30m/
-│ │ └── labels/
-│ ├── processed/
-│ └── data_dictionary.md
-│
+-│
+-├── data/
+-│ ├── raw/
+-│ │ ├── edr/
+-│ │ ├── mxy/
+-│ │ ├── rng-30m/
+-│ │ └── labels/
+-│ ├── processed/
+-│ └── data_dictionary.md
+-│
 ├── notebooks/
 │ ├── 01_data_exploration.ipynb
 │ ├── 02_data_preprocessing.ipynb
