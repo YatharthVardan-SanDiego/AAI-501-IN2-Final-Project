@@ -28,8 +28,6 @@ We aim to build semantic segmentation models for Martian terrain analysis.
 
 ## 📂 Repository Structure
 
-# 📁 AI4Mars Project Repository Structure
-
 - **data/**
   - **raw/**
     - edr/ → Raw Mars images from Curiosity
