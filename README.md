@@ -28,46 +28,47 @@ We aim to build semantic segmentation models for Martian terrain analysis.
 
 ## 📂 Repository Structure
 
-ai4mars-project/
--│
--├── data/
--│ ├── raw/
--│ │ ├── edr/
--│ │ ├── mxy/
--│ │ ├── rng-30m/
--│ │ └── labels/
--│ ├── processed/
--│ └── data_dictionary.md
--│
-├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_data_preprocessing.ipynb
-│ ├── 03_model_training.ipynb
-│ ├── 04_model_evaluation.ipynb
-│
-├── visuals/
-│ ├── data_samples/
-│ ├── class_distribution/
-│ ├── model_metrics/
-│
-├── src/
-│ ├── data_loader.py
-│ ├── utils.py
-│ └── train.py
-│
-├── reports/
-│ ├── AI4Mars_Final_Report.pdf
-│ └── AI4Mars_Final_Report.mp4
-│
-├── presentation/
-│ └── slides.pptx
-│
-├── meta/
-│ ├── team_contacts.txt
-│ ├── meeting_notes.md
-│ ├── role_assignment.md
-│ └── ai_usage_notes.md
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+# 📁 AI4Mars Project Repository Structure
+
+- **data/**
+  - **raw/**
+    - edr/ → Raw Mars images from Curiosity
+    - mxy/ → Rover masks
+    - rng-30m/ → Range masks beyond 30 meters
+    - labels/ → Train/test label masks
+  - processed/ → Cleaned or resized data
+  - data_dictionary.md → Documentation about dataset classes, RGB values, etc.
+
+- **notebooks/**
+  - 01_data_exploration.ipynb
+  - 02_data_preprocessing.ipynb
+  - 03_model_training.ipynb
+  - 04_model_evaluation.ipynb
+
+- **visuals/**
+  - data_samples/ → Random image-label overlays
+  - class_distribution/ → Pie charts, bar graphs
+  - model_metrics/ → Loss curves, confusion matrices
+
+- **src/**
+  - data_loader.py → PyTorch Dataset class for AI4Mars
+  - utils.py → Helper functions
+  - train.py → Model training script
+
+- **reports/**
+  - AI4Mars_Final_Report.pdf
+  - AI4Mars_Final_Report.mp4
+
+- **presentation/**
+  - slides.pptx
+
+- **meta/**
+  - team_contacts.txt
+  - meeting_notes.md
+  - role_assignment.md
+  - ai_usage_notes.md
+
+- requirements.txt → Python dependencies
+- README.md → Project overview and instructions
+- .gitignore → Files and folders to exclude from Git
+
