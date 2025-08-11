@@ -38,20 +38,15 @@ We aim to build semantic segmentation models for Martian terrain analysis.
   - data_dictionary.md → Documentation about dataset classes, RGB values, etc.
 
 - **notebooks/**
-  - 01_data_exploration.ipynb
-  - 02_data_preprocessing.ipynb
-  - 03_model_training.ipynb
-  - 04_model_evaluation.ipynb
+  - EDA.ipynb
+  - SegNet.ipynb
+  - deeplabv3.ipynb
+  - unet.ipynb
 
 - **visuals/**
   - data_samples/ → Random image-label overlays
   - class_distribution/ → Pie charts, bar graphs
   - model_metrics/ → Loss curves, confusion matrices
-
-- **src/**
-  - data_loader.py → PyTorch Dataset class for AI4Mars
-  - utils.py → Helper functions
-  - train.py → Model training script
 
 - **reports/**
   - AI4Mars_Final_Report.pdf
@@ -59,12 +54,6 @@ We aim to build semantic segmentation models for Martian terrain analysis.
 
 - **presentation/**
   - slides.pptx
-
-- **meta/**
-  - team_contacts.txt
-  - meeting_notes.md
-  - role_assignment.md
-  - ai_usage_notes.md
 
 - requirements.txt → Python dependencies
 - README.md → Project overview and instructions
