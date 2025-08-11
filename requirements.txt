@@ -5,3 +5,6 @@ opencv-python
 matplotlib
 albumentations
 jupyter
+tensorflow
+pandas
+seaborn
